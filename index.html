@@ -23,6 +23,10 @@
           ></path>
         </svg>
         <h2>Shopping cart</h2>
+        <span id="total"
+          ><h3>Total:</h3>
+          <h3>$<span id="total_amount">0</span></h3></span
+        >
       </div>
       <div class="content">
         <div class="newProduct">
@@ -41,6 +45,7 @@
         </div>
         <button class="show-cart" onclick="showCartItems(this)">
           Show Cart Items
+          <p id="show-cart_counter"></p>
         </button>
         <div id="productsList"></div>
       </div>
